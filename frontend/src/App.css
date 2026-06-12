@@ -1,0 +1,13 @@
+/* App-specific styles */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+}
+
+.chat-container {
+  flex: 1;
+}

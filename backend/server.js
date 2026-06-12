@@ -11,7 +11,7 @@ const MODEL = process.env.MODEL || 'llama2';
 
 // Middleware
 app.use(cors({
-  origin: process.env.CORS_ORIGIN || 'http://localhost:3000',
+  origin: ['http://localhost:3000', 'http://localhost:3005', 'http://localhost:3004'],
   credentials: true
 }));
 app.use(bodyParser.json({ limit: '50mb' }));
